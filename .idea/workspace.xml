@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb6c196-e371-4a61-8366-5733da090431" name="Changes" comment="" />
+    <list default="true" id="3cb6c196-e371-4a61-8366-5733da090431" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/example6/src/main/java/com/example/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/example6/src/main/java/com/example/beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example6/src/main/java/com/example/main/Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/example6/src/main/java/com/example/main/Example6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Example6.executor": "Run",
+    "Application.Example6.executor": "Debug",
+    "Application.Example7.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -44,7 +48,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Example7">
     <configuration name="Example6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.main.Example6" />
       <module name="example5 (1)" />
@@ -58,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.main.Example7" />
+      <module name="example6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example7" />
         <item itemvalue="Application.Example6" />
       </list>
     </recent_temporary>
@@ -73,5 +91,20 @@
       <updated>1756103996476</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.2.2/spring-context-6.2.2.jar!/org/springframework/context/support/GenericApplicationContext.class</url>
+          <line>259</line>
+          <properties class="org.springframework.context.support.GenericApplicationContext" method="registerBean">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

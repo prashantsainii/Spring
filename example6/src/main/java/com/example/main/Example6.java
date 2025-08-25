@@ -14,5 +14,6 @@ public class Example6 {
 //        vehicle.setName("Audiii");  // this step will overwrite the name set
         System.out.println("Vehicle name from Spring Context is: " + vehicle.getName());    // this will print Audiiii
         vehicle.printHello();
+        context.close();
     }
 }
