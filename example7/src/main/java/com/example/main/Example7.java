@@ -55,6 +55,5 @@ public class Example7 {
         else {
             System.out.println("Programming vehicle name from Spring Context is: "+ audiVehicle.getName());
         }
-
     }
 }
